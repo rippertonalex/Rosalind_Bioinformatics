@@ -5,7 +5,7 @@
 
 
 DNA = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
-def nuc_counter(DNA):
+def nucleotide_counter(DNA):
     A = 0
     C = 0
     G = 0 
@@ -20,7 +20,7 @@ def nuc_counter(DNA):
         if i == 'T':
             T+=1
     print(A,C,G,T)
-nuc_counter('CTGTAACAATTCGCCCATTTCCCAGTGCGCGAGGG')
+nucleotide_counter('CTGTAACAATTCGCCCATTTCCCAGTGCGCGAGGG')
 
 
 # In[25]:
